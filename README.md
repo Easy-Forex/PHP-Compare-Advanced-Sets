@@ -12,7 +12,7 @@ Originally developed to give a comparison of installed packages on Centos Server
 
 Details
 -------
-### Version Comparison Input Format
+### Input Format
 
 The format of the data to pass to the CompareVersions function (1st param):
 
@@ -23,7 +23,7 @@ array(
 )
 ```
 
-### Version Comparison Base Group
+### Base Group
 
 A base comparison group can be passed to the CompareVersions function (2nd param) as
 a string of the group name (input array key).
@@ -32,7 +32,7 @@ If the base group is not set the first group of the data array will be used.
 
 If unsure of which base group is used it can be returned using the GetBaseGroup function.
 
-### Version Comparison Return Data
+### Return Data
 
 The comparison script returns an array of 'missing' items, 'different' versions and 'extra' items
 for each group compared to the base.
