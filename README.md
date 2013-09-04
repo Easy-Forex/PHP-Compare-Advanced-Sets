@@ -16,10 +16,12 @@ Details
 
 The format of the data to pass to the CompareVersions function (1st param):
 
+```
 array(
 	'group1' => '{"item_name":"item_version","item2_name":"item2_version"}',
 	'group2' => '{"item_name":"item_version","item2_name":"item2_version"}',
 )
+```
 
 ### Version Comparison Base Group
 
